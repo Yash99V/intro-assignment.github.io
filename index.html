@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="h4">
+    <h1 class="head">MY FIRST FORM</h1>
+    <form action="#">
+        <div id="fullpage"><h2>Make An ORDER :</h2></div>
+        <table border="0">
+
+            <tr>
+                <td class="label">First Name :</td>
+                <td class="input"><input name="firstname" id="firstname" type="text" onblur="validatefirstname(); "> </td>
+                <td class="feedback"><span id="firstNamePrompt">&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td class="label">Last Name  :</td>
+                <td class="input"><input name="lastname" id="lastname" type="text" onblur="validatelastname(); "    > </td>
+                <td class="feedback"><span id="lastNamePrompt">&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td class="label">Birth Date  :</td>
+                <td class="input"><input name="birthday" id="date" type="date"> </td>
+                <td class="feedback"><span id="date">&nbsp;</span></td>
+            </tr>
+
+            <tr>
+                <td class="label">Password :</td>
+                <td class="input"><input name="Password" id="password" type="password"     > </td>
+                <td class="feedback"><span id="password">*******</span></td>
+            </tr>
+
+            <tr>
+                <td class="label">Phone-No:</td>
+                <td class="input"><input name="tel" id="phone1" type="number" onblur="phone();" > </td>
+                <td class="feedback"><span id="phone">xxx-xxx-xxxx</span></td>
+            </tr>
+
+            <tr>
+                <td class="label">Email-Id:</td>
+                <td class="input"><input name="email" id="email1"  onblur="emailx();" > </td>
+                <td class="feedback"><span id="email">@gmail.com</span></td>
+            </tr>
+
+        </table>
+
+    </form>
+</div>
+</body>
+</html>
